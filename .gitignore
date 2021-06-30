@@ -111,6 +111,8 @@ ENV/
 .mypy_cache/
 
 
-src/lib/models/networks/DCNv2
 exp
 models
+.idea/
+src/lib/models/networks/DCNv2/
+src/lib/models/networks/DCNv2_orig/
