@@ -109,3 +109,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+.idea/
+
+src/lib/models/networks/DCNv2/
+
+src/lib/models/networks/DCNv2_orig/
