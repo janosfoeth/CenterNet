@@ -4,8 +4,9 @@ from __future__ import print_function
 
 import _init_paths
 
-import os
 from comet_ml import Experiment
+import sys
+import os
 
 import torch
 import torch.utils.data
