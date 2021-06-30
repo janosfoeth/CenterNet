@@ -38,7 +38,7 @@ class Logger(object):
         opt_file.write('  %s: %s\n' % (str(k), str(v)))
 
     log_dir = opt.save_dir + '/logs_{}'.format(time_str)
-    self.log_dir = log_dir
+    self.log_folder = log_dir
     if USE_TENSORBOARD:
       self.writer = tensorboardX.SummaryWriter(log_dir=log_dir)
     else:
