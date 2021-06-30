@@ -2,10 +2,10 @@ from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
 
-from comet_ml import Experiment
 import _init_paths
 
 import os
+from comet_ml import Experiment
 
 import torch
 import torch.utils.data
